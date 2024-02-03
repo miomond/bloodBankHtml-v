@@ -81,6 +81,32 @@
     resize: none;
     padding-top: 10px;
   }
+  .boldType{
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    width: 50%;
+  }
+  .boldType select {
+    background:#60bbe5 ;
+    color: hsl(0, 0%, 100%);
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    border-bottom: 2px solid white;
+  }
+
+   .theSELECT{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    padding-left: 2rem;
+  } 
+  .theSELECT .input-data{
+    /* width: 30%; */
+    position: relative;
+  }
 
 
   .input-data label{
@@ -122,7 +148,7 @@
   .submit-btn .input-data{
     overflow: hidden;
     height: 45px!important;
-    width: 25%!important;
+    width: 100%!important;
   }
   .submit-btn .input-data .inner{
     height: 100%;
